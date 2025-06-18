@@ -1,3 +1,6 @@
+/* [i,j] 좌표 형식으로 진행하는 방식도 있다. */
+
+
 public class Main {
 
     public static void problem1(int n) {
@@ -7,6 +10,7 @@ public class Main {
            }
            System.out.println();
        }
+        System.out.println();
     }
     public static void problem2(int n) {
         for(int i=0; i <=n; i++) {
@@ -18,6 +22,7 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println();
     }
     public static void problem3(int n) {
         for(int i =0; i<=n; i++) {
@@ -29,6 +34,7 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println();
     }
     public static void problem4(int n) {
         for(int i=0; i <=n; i++) {
@@ -41,6 +47,7 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println();
     }
     public static void problem5(int n) {
         for (int i = 0; i <= n; i++) {
@@ -49,6 +56,7 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println();
     }
     public static void problem6(int n) {
         for(int i =0; i<=n; i++) {
@@ -62,6 +70,7 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println();
     }
     public static void problem7(int n) {
         for (int i = 0; i <= n; i++) {
@@ -70,6 +79,7 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println();
     }
     public static void problem8(int n) {
         for(int i =0; i <=n; i++) {
@@ -82,6 +92,7 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println();
     }
     public static void problem9(int n) {
         for(int i =0; i<=n; i++) {
@@ -102,6 +113,7 @@ public class Main {
             }
             System.out.println();
         }
+        System.out.println();
     }
     public static void problem10(int n) {
         for(int i =0; i <=n; i++) {
@@ -119,11 +131,10 @@ public class Main {
                     else
                         System.out.print(" ");
                 }
-
             }
             System.out.println();
         }
-
+        System.out.println();
     }
     public static void main(String[] args) {
         problem1(4);
@@ -136,6 +147,5 @@ public class Main {
         problem8(4);
         problem9(4);
         problem10(4);
-
     }
 }
